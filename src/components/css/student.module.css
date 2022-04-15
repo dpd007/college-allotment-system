@@ -1,0 +1,10 @@
+.buttons {
+  font-size: 1.1rem;
+  background-color: #154c79;
+  color: white;
+  border-radius: 3px;
+  text-transform: capitalize;
+  border: none;
+  padding: 5px 10px;
+  margin: 5px;
+}
