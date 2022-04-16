@@ -9,6 +9,7 @@ const COLLEGE_LIST = [
   { id: 5, name: "IIT Roorkee", noOfSeats: 1 },
   { id: 6, name: "IIM Ahemedabad", noOfSeats: 2 },
 ];
+
 function App() {
   const [collegeList, setCollegeList] = useState(COLLEGE_LIST);
   return (

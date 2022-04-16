@@ -57,7 +57,7 @@ const Student = ({ collegeList }) => {
           <tr key={student.id}>
             <td
               className="text-center"
-              contentEditable="true"
+              // contentEditable="true"
               // onChange={handleEditable}
               // onKeyPress={handleKeypress}
             >
@@ -65,7 +65,7 @@ const Student = ({ collegeList }) => {
             </td>
             <td
               className="text-center"
-              contentEditable="true"
+              // contentEditable="true"
               // onChange={handleEditable}
               // onKeyPress={handleKeypress}
             >
@@ -73,7 +73,7 @@ const Student = ({ collegeList }) => {
             </td>
             <td
               className="text-center"
-              contentEditable="true"
+              // contentEditable="true"
               // onChange={handleEditable}
               // onKeyPress={handleKeypress}
             >
@@ -81,7 +81,7 @@ const Student = ({ collegeList }) => {
             </td>
             <td
               className="text-center"
-              contentEditable="true"
+              // contentEditable="true"
               // onChange={handleEditable}
               // onKeyPress={handleKeypress}
             >
@@ -89,7 +89,7 @@ const Student = ({ collegeList }) => {
             </td>
             <td
               className="text-center"
-              contentEditable="true"
+              // contentEditable="true"
               // onChange={handleEditable}
               // onKeyPress={handleKeypress}
             >
@@ -107,7 +107,6 @@ const Student = ({ collegeList }) => {
     <div className="container">
       <h4>Students List</h4>
       {studentsLits.length > 0 ? studentListShow : studentListError}
-      {/* {studentListShow} */}
       <button className={classes.buttons} onClick={handleShow}>
         add new student
       </button>
